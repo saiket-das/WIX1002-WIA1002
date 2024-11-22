@@ -3,6 +3,12 @@ package lab.lab_6;
 import java.util.Random;
 import java.util.Scanner;
 
+/*
+    Write a Java method that accepts three parameters, the method will compare whether
+    the third parameter value is equal to the multiplication of parameter 1 and parameter 2. 
+    Then, write a Java multiplication game for any random number within 0 – 12.
+*/
+
 public class Q5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
