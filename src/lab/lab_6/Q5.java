@@ -19,6 +19,7 @@ public class Q5 {
             a = ran.nextInt(0, 13);
             b = ran.nextInt(0, 13);
 
+            System.out.println("Enter negative number to quit.");
             System.out.print(a + " * " + b + " = ");
             c = sc.nextInt();
 

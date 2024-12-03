@@ -14,11 +14,7 @@ public class Q4 {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        int c = sc.nextInt();
-        int d = sc.nextInt();
-
-        System.out.println("GCD of (" + a + ", " + b + "): " + gcd(a, b));
-        System.out.println("GCD of (" + c + ", " + d + "): " + gcd(c, d));
+        System.out.println("GCD of (" + a + ", " + b + ") is: " + gcd(a, b));
         sc.close();
     }
 
