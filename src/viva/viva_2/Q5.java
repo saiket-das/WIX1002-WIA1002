@@ -6,7 +6,6 @@ public class Q5 {
         String[] studentName = { "John", "Cindy", "Alex", "Ali", "Rosli", "Roger" };
         int[] mark = { 59, 62, 21, 36, 85, 74 };
 
-        //
         String[][] studentInfo = getStudentInfo(studentID, studentName, mark);
 
         System.out.println("List of Students and their Marks: ");
