@@ -6,9 +6,7 @@ public class Q2 {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-
         main: while (true) {
-
             // Print options
             System.out.println("Choose the shape to calculate the area: ");
             System.out.println("1. Circle");
@@ -25,7 +23,9 @@ public class Q2 {
                 case 1:
                     System.out.print("Enter the radius of the circle: ");
                     double radius = sc.nextDouble();
-                    calculateCircleArea(radius);
+                    double circleArea = calculateCircleArea(radius);
+
+                    System.out.printf("The area of the circle is: %.2f \n\n", circleArea);
                     continue main;
 
                 // Rectangle
@@ -34,7 +34,9 @@ public class Q2 {
                     double length = sc.nextDouble();
                     System.out.print("Enter the width of the rectangle: ");
                     double width = sc.nextDouble();
-                    calculateRectangleArea(length, width);
+
+                    double rectangleArea = calculateRectangleArea(length, width);
+                    System.out.printf("The area of the rectangle is: %.2f \n\n", rectangleArea);
                     continue main;
 
                 // Triangle
@@ -43,7 +45,9 @@ public class Q2 {
                     double base = sc.nextDouble();
                     System.out.print("Enter the radius of the triangle: ");
                     double height = sc.nextDouble();
-                    calculateTriangleArea(base, height);
+
+                    double triangleArea = calculateTriangleArea(base, height);
+                    System.out.printf("The area of the triangle is: %.2f \n\n", triangleArea);
                     continue main;
 
                 // Triangle
@@ -56,20 +60,20 @@ public class Q2 {
     }
 
     // Calculate circle area
-    public static void calculateCircleArea(double radius) {
+    public static double calculateCircleArea(double radius) {
         double area = radius * radius * Math.PI;
-        System.out.printf("The area of the circle is: %.2f \n\n", area);
+        return area;
     }
 
     // Calculate rectangle area
-    public static void calculateRectangleArea(double length, double width) {
+    public static double calculateRectangleArea(double length, double width) {
         double area = length * width;
-        System.out.printf("The area of the rectangle is: %.2f \n\n", area);
+        return area;
     }
 
     // Calculate triangle area
-    public static void calculateTriangleArea(double base, double height) {
+    public static double calculateTriangleArea(double base, double height) {
         double area = (base * height) / 2;
-        System.out.printf("The area of the triangle is: %.2f \n\n", area);
+        return area;
     }
 }
