@@ -12,6 +12,7 @@ public class Q2 {
             System.out.println("1. Circle");
             System.out.println("2. Rectangle");
             System.out.println("3. Triangle");
+            System.out.println("4. Trapezium");
             System.out.println("0. Exit");
 
             // Choose one option
@@ -50,7 +51,21 @@ public class Q2 {
                     System.out.printf("The area of the triangle is: %.2f \n\n", triangleArea);
                     continue main;
 
-                // Triangle
+                // Trapezium
+                case 4:
+                    System.out.print("Enter the a of the trapezium: ");
+                    double a = sc.nextDouble();
+                    System.out.print("Enter the b of the trapezium: ");
+                    double b = sc.nextDouble();
+
+                    System.out.print("Enter the height of the trapezium: ");
+                    double h = sc.nextDouble();
+
+                    double trapeziumeArea = calculateTrapeziumArea(a, b, h);
+                    System.out.printf("The area of the trapezium is: %.2f \n\n", trapeziumeArea);
+                    continue main;
+
+                // Exit
                 case 0:
                     break main;
                 default:
@@ -74,6 +89,12 @@ public class Q2 {
     // Calculate triangle area
     public static double calculateTriangleArea(double base, double height) {
         double area = (base * height) / 2;
+        return area;
+    }
+
+    // Trapezium
+    public static double calculateTrapeziumArea(double a, double b, double h) {
+        double area = ((a + b) / 2) * h;
         return area;
     }
 }

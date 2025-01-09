@@ -4,8 +4,9 @@ import java.util.*;
 
 public class Q6 {
 
-    public static String generateInitials(String name) {
-        String[] delimiters = { " ", "'", "-", "_" };
+    // Method to generate initials from a given name
+    public String generateInitials(String name) {
+        String[] delimiters = { " ", "'", ".", ",", "-", "_", "%", ":", "=", ";" };
         Set<String> excludedWords = new HashSet<>(Arrays.asList("bin", "binti", "a/l", "a/p"));
 
         List<String> parts = new ArrayList<>();
@@ -45,7 +46,7 @@ public class Q6 {
     }
 
     // Method to determine if a welcome message should be printed
-    public static boolean isPrintingWelcomeMessage(String name) {
+    public boolean isPrintingWelcomeMessage(String name) {
         List<String> welcomeNames = Arrays.asList(
                 "Kah Sing", "Lee Kah Sing", "Kah Sing Lee",
                 "Suresh", "Suresh a/l Subramaniam",
@@ -54,7 +55,7 @@ public class Q6 {
     }
 
     // Method to calculate the time interval between start and end times
-    public static String calculateInterval(int[] startTime, int[] endTime) {
+    public String calculateInterval(int[] startTime, int[] endTime) {
         int startSeconds = startTime[0] * 3600 + startTime[1] * 60 + startTime[2];
         int endSeconds = endTime[0] * 3600 + endTime[1] * 60 + endTime[2];
 
@@ -72,7 +73,7 @@ public class Q6 {
     }
 
     // Method to process a single test case
-    public static List<String> processTestCase(String name, int[] startTime, int[] endTime) {
+    public List<String> processTestCase(String name, int[] startTime, int[] endTime) {
         List<String> result = new ArrayList<>();
         result.add("+".repeat(60));
 
@@ -107,27 +108,32 @@ public class Q6 {
 
     // Main method to run test cases
     public static void main(String[] args) {
-        // Q6 g101 = new Q6();
+        Scanner scanner = new Scanner(System.in);
+        Q6 q6 = new Q6();
 
-        // Sample test cases
-        String[][] testCases = {
-                { "Kah Sing Lee", "23:30:00", "01:00:00" },
-                { "Ridwan Faiz", "12:00:00", "14:30:00" },
-                { "Suresh a/l Subramaniam", "05:00:00", "07:00:00" }
-        };
+        System.out.println("Enter the number of test cases:");
+        int numTestCases = Integer.parseInt(scanner.nextLine());
 
-        for (String[] testCase : testCases) {
-            String name = testCase[0];
-            int[] startTime = Arrays.stream(testCase[1].split(":"))
+        for (int i = 0; i < numTestCases; i++) {
+            System.out.println("Enter the name:");
+            String name = scanner.nextLine();
+
+            System.out.println("Enter the start time (hh:mm:ss):");
+            int[] startTime = Arrays.stream(scanner.nextLine().split(":"))
                     .mapToInt(Integer::parseInt)
                     .toArray();
-            int[] endTime = Arrays.stream(testCase[2].split(":"))
+
+            System.out.println("Enter the end time (hh:mm:ss):");
+            int[] endTime = Arrays.stream(scanner.nextLine().split(":"))
                     .mapToInt(Integer::parseInt)
                     .toArray();
-            List<String> output = processTestCase(name, startTime, endTime);
+
+            List<String> output = q6.processTestCase(name, startTime, endTime);
             for (String line : output) {
                 System.out.println(line);
             }
         }
+
+        scanner.close();
     }
 }

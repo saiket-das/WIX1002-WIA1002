@@ -48,6 +48,7 @@ public class Q3 {
                     System.out.print("Enter Book Title: ");
                     String searchTitle = scanner.nextLine();
                     boolean found = false;
+
                     for (Book book : books) {
                         if (book.title.equalsIgnoreCase(searchTitle)) {
                             book.display();

@@ -1,5 +1,7 @@
 package viva.viva_2;
 
+import java.util.Arrays;
+
 public class Q5 {
     public static void main(String[] args) {
         String[] studentID = { "S0001", "S0002", "S0003", "S0004", "S0005", "S0006" };
@@ -8,20 +10,28 @@ public class Q5 {
 
         String[][] studentInfo = getStudentInfo(studentID, studentName, mark);
 
-        System.out.println("List of Students and their Marks: ");
+        // System.out.println("List of Students and their Marks: ");
+        // printStudentInfo(studentInfo);
+        // System.out.println();
+
+        // System.out.println("Student with highest marks: ");
+        // findStudentWithHighestMarks(studentInfo);
+        // System.out.println();
+
+        // double average = findAverage(mark);
+        // System.out.println("Average mark: " + average);
+        // System.out.println();
+
+        // System.out.println("Students scoring below the average:");
+        // listStudentsBelowAverage(studentInfo, average);
+
+        // System.out.println("Sort students by mark");
+
         printStudentInfo(studentInfo);
-        System.out.println();
+        System.out.println("------");
 
-        System.out.println("Student with highest marks: ");
-        findStudentWithHighestMarks(studentInfo);
-        System.out.println();
-
-        double average = findAverage(mark);
-        System.out.println("Average mark: " + average);
-        System.out.println();
-
-        System.out.println("Students scoring below the average:");
-        listStudentsBelowAverage(studentInfo, average);
+        sortStudentByMark(studentInfo);
+        printStudentInfo(studentInfo);
     }
 
     // Save the students data into two dimensional string array (studentInfo[][])
@@ -36,6 +46,7 @@ public class Q5 {
          * studentInfo[0][3] = "80"
          */
         String[][] studentInfo = new String[len][3];
+
         for (int i = 0; i < len; i++) {
             studentInfo[i][0] = studentIDs[i];
             studentInfo[i][1] = studentNames[i];
@@ -98,6 +109,11 @@ public class Q5 {
                 System.out.printf("%s: %d %n", studentInfo[i][1], Integer.parseInt(studentInfo[i][2]));
             }
         }
+    }
+
+    // Sort students by marks
+    public static void sortStudentByMark(String[][] studentInfo) {
+        Arrays.sort(studentInfo, (a, b) -> Integer.compare(Integer.parseInt(b[2]), Integer.parseInt(a[2])));
     }
 
 }
