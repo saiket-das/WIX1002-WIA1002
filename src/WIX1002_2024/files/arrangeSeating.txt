@@ -1,0 +1,4 @@
+Seat A: James Bond, Age  43,  No. 67 Jalan BP10/12 Kelang
+Seat B: Madeleine, Age  36,  No. 67 Jalan BP 10 / 12 KELANG
+Seat C: Evelyn Wang, Age  57
+Seat D: Waymond Wang, Age  49

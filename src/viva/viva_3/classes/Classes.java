@@ -45,6 +45,7 @@ public class Classes {
             }
         }
 
+        // Generate a customer id (C001 -> C002 (next customer))
         public String generateCustomerId() {
             int totalCustomer = customers.size() + 1;
             return String.format("C%03d", totalCustomer); // Format as "C001", "C002", etc.
@@ -86,7 +87,9 @@ public class Classes {
 
         }
 
-        // Generate a account ID (C001 --> A1001 A1002)
+        // Generate a account ID for new customer(C001) (A1001)
+        // Generate a account ID for same customer(C002) (A2001 -> A2002 (another new
+        // account))
         public String generateAccountId() {
             int accountNumber = accounts.size() + 1;
             String customerNumber = customerId.substring(1); // Get "001" from "C001"
