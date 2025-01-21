@@ -1,4 +1,4 @@
-package WIX1002_2024;
+package past_years.WIX1002_2024;
 
 import java.io.*;
 import java.util.*;
@@ -32,6 +32,7 @@ public class Q5 {
 
         if (!file.exists()) {
             System.out.println("File not found");
+            return participants;
         }
 
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {

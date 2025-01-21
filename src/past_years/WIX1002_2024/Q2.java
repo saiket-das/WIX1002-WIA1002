@@ -1,4 +1,4 @@
-package WIX1002_2024;
+package past_years.WIX1002_2024;
 
 public class Q2 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package WIX1002_2024;
+package past_years.WIX1002_2024;
 
 import java.io.File;
 import java.io.BufferedReader;
