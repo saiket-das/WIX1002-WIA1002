@@ -85,4 +85,65 @@ public class Q3 {
         }
     }
 
+    // public static void main(String[] args) {
+    // Scanner input = new Scanner(System.in);
+
+    // System.out.print("Enter font size: ");
+    // int fontSize = input.nextInt();
+    // System.out.print("Enter font type: ");
+    // char fontType = input.next().charAt(0);
+
+    // System.out.print("Enter format [1 - Vertical, 2 - Horizontal]: ");
+    // int format = input.nextInt();
+
+    // if (format == 1) {
+    // printVertical(fontSize, fontType);
+    // } else if (format == 2) {
+    // printhorizontal(fontSize, fontType);
+    // }
+
+    // }
+
+    // // Vertical
+    // public static void printVertical(int fontSize, char fontType) {
+    // int len = fontSize + 2;
+    // for (int i = 0; i < len; i++) {
+    // for (int j = 0; j < len; j++) {
+    // if (i == 0 || i == len - 1) {
+    // System.out.print(fontType);
+    // } else {
+    // if (j == 0 || j == len - 1) {
+    // System.out.print(fontType);
+    // } else {
+    // System.out.print(" ");
+    // }
+    // }
+    // }
+    // System.out.println();
+    // }
+
+    // for (int i = 0; i < len; i++) {
+    // for (int j = 0; j < len; j++) {
+    // if (i == 0) {
+    // continue;
+    // } else if (i == len - 1) {
+    // System.out.print(fontType);
+    // } else {
+    // if (j == 0 || j == len - 1) {
+    // System.out.print(fontType);
+    // } else {
+    // System.out.print(" ");
+    // }
+    // }
+    // }
+    // if (i != 0) {
+    // System.out.println();
+    // }
+    // }
+    // }
+
+    // // Horizontal
+    // public static void printhorizontal(int fontSize, char fontType) {
+
+    // }
 }
