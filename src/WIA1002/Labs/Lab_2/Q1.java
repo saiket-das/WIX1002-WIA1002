@@ -1,4 +1,4 @@
-package WIA1002.Labs.Lab_1;
+package WIA1002.Labs.Lab_2;
 
 /*
     Create a generic class called MyGeneric that accepts one parameter.

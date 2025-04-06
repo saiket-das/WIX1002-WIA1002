@@ -1,4 +1,4 @@
-package WIA1002.Labs.Lab_1;
+package WIA1002.Labs.Lab_2;
 
 public class Q2 {
     // Method to find the maximum of three values

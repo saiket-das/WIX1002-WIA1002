@@ -1,4 +1,4 @@
-package WIA1002.Labs.Lab_1;
+package WIA1002.Labs.Lab_2;
 
 public class Q6 {
     public static void main(String[] agrs) {
