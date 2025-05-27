@@ -15,18 +15,13 @@ public class Q1 {
         // intLinkedList.removeLast();
         // intLinkedList.remove(4);
 
-        Node<Integer> head = intLinkedList.head;
-
-        System.out.println("Print all elements:");
-        while (head != null) {
-            System.err.println(head.element);
-            head = head.next;
-        }
+        intLinkedList.printLinkedList();
 
         System.out.println("\nQ4:");
         printYesNo(intLinkedList.contains(199));
-        System.out.println(intLinkedList.get(4));
-        System.out.println(intLinkedList.get(5));
+        System.out.println("4 Index element is: " + intLinkedList.get(4));
+        System.out.println("5 Index element is: " + intLinkedList.get(5));
+        System.out.println("6 Index element is: " + intLinkedList.get(6));
         System.out.println(intLinkedList.getFirst());
         System.out.println(intLinkedList.getLast());
     }
@@ -255,6 +250,15 @@ public class Q1 {
             return tail.element;
         }
 
+        public void printLinkedList() {
+            Node<E> current = head;
+            System.out.println("Print all elements:");
+            while (current != null) {
+                System.err.print(current.element + " ");
+                current = current.next;
+            }
+            System.out.println();
+        }
     }
 
     public static void printYesNo(boolean value) {

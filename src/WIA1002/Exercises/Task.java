@@ -20,6 +20,17 @@ public class Task {
     private Priority priority;
     private Status status;
 
+    Task(String title, String description, Priority priority, Status status) {
+        this.title = title;
+        this.description = description;
+        this.priority = priority;
+        this.status = status;
+    }
+
+    void printTask() {
+        System.out.println(title + " Priority: " + priority + description + status);
+    }
+
     // Get task title
     // Get task description
     // Get task priority
@@ -60,12 +71,4 @@ class TaskList {
     // Add new Task
     // Remove Task
     // Update Task's Info
-}
-
-class Main {
-    // Call TaskList object
-
-    // Add new Task (addNewTask)
-    // Remove an existing Task (@removeTask)
-    // Update an existing Task's Info (@updateTask)
 }
