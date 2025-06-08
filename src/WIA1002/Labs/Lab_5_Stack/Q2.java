@@ -2,7 +2,7 @@ package WIA1002.Labs.Lab_5_Stack;
 
 import java.util.*;
 
-import WIA1002.Labs.Lab_5_Stack.classes.MyStack;
+import WIA1002.Labs.Lab_5_Stack.Classes.MyStack;
 
 public class Q2 {
     public static void main(String[] args) {

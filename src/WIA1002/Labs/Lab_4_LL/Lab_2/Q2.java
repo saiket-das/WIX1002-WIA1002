@@ -1,7 +1,8 @@
 package WIA1002.Labs.Lab_4_LL.Lab_2;
 
 import java.util.*;
-import WIA1002.Labs.Lab_4_LL.Lab_2.classes.SList;
+
+import WIA1002.Labs.Lab_4_LL.Lab_2.Classes.SList;
 
 public class Q2 {
     public static void main(String[] args) {

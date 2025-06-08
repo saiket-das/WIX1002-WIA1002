@@ -1,6 +1,6 @@
 package WIA1002.Labs.Lab_4_LL.Lab_2;
 
-import WIA1002.Labs.Lab_4_LL.Lab_2.classes.DoublyLinkedList;
+import WIA1002.Labs.Lab_4_LL.Lab_2.Classes.DoublyLinkedList;
 
 public class Q3 {
     public static void main(String[] args) {

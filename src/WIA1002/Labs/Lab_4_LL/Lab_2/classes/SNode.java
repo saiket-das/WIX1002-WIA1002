@@ -1,4 +1,4 @@
-package WIA1002.Labs.Lab_4_LL.Lab_2.classes;
+package WIA1002.Labs.Lab_4_LL.Lab_2.Classes;
 
 public class SNode<E> {
     E data;

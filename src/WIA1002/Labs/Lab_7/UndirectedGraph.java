@@ -1,4 +1,4 @@
-package WIA1002.Labs.Lab_6;
+package WIA1002.Labs.Lab_7;
 
 import java.util.*;
 

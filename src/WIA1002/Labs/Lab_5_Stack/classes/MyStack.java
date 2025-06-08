@@ -1,4 +1,4 @@
-package WIA1002.Labs.Lab_5_Stack.classes;
+package WIA1002.Labs.Lab_5_Stack.Classes;
 
 import java.util.*;
 
