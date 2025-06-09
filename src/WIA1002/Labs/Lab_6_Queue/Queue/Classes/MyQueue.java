@@ -1,4 +1,4 @@
-package WIA1002.Labs.Lab_6_Queue.Classes;
+package WIA1002.Labs.Lab_6_Queue.Queue.Classes;
 
 import java.util.*;
 

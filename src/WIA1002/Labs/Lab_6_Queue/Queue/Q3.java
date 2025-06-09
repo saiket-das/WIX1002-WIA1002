@@ -1,8 +1,8 @@
-package WIA1002.Labs.Lab_6_Queue;
+package WIA1002.Labs.Lab_6_Queue.Queue;
 
 import java.util.Scanner;
 
-import WIA1002.Labs.Lab_6_Queue.Classes.MyQueue;
+import WIA1002.Labs.Lab_6_Queue.Queue.Classes.MyQueue;
 
 public class Q3 {
     static Scanner input = new Scanner(System.in);

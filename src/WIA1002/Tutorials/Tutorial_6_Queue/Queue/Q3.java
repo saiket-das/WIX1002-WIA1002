@@ -1,4 +1,4 @@
-package WIA1002.Tutorials.Tutorial_6_Queue;
+package WIA1002.Tutorials.Tutorial_6_Queue.Queue;
 
 import java.util.LinkedList;
 import java.util.Queue;

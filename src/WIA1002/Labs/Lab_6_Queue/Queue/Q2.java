@@ -1,6 +1,6 @@
-package WIA1002.Labs.Lab_6_Queue;
+package WIA1002.Labs.Lab_6_Queue.Queue;
 
-import WIA1002.Labs.Lab_6_Queue.Classes.MyQueue;
+import WIA1002.Labs.Lab_6_Queue.Queue.Classes.MyQueue;
 
 /* Write a Java program that uses a Queue to determine if the input string is a palindrome or not. */
 

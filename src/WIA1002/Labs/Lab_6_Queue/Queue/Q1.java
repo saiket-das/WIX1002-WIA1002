@@ -1,6 +1,6 @@
-package WIA1002.Labs.Lab_6_Queue;
+package WIA1002.Labs.Lab_6_Queue.Queue;
 
-import WIA1002.Labs.Lab_6_Queue.Classes.MyQueue;
+import WIA1002.Labs.Lab_6_Queue.Queue.Classes.MyQueue;
 
 public class Q1 {
     public static void main(String[] args) {

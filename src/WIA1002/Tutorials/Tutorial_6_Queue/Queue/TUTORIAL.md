@@ -39,17 +39,17 @@ What is the difference between a queue and stack?
 **(a)** What is the output for the following input sequence?
 true false false true true
 
-**Answer**
+**Answer:**
 1 4 5 2 3
 
 **(a)** Is it possible to have output: 1 3 5 4 2? If yes, give an input sequence that produces the
-output; or else, provide justification to your answer.
+output; or else, provide justification to your answer:.
 
-**Answer**
+**Answer:**
 NO
 
 **(a)** Give at least three input sequences that produce the output: 1 2 3 4 5
-**Answer**
+**Answer:**
 
 - true true true true true
 - false false false false false
@@ -78,7 +78,7 @@ Given the resulting queue X above, what would be the result of each of the follo
 **(a)**
 `X.front();`
 
-**Answer** 5
+**Answer:** 5
 
 **(b)**
 
@@ -88,17 +88,17 @@ Given the resulting queue X above, what would be the result of each of the follo
     X.front();                     // What's in the front
 ```
 
-**Answer** 7
+**Answer:** 7
 
 **(c)**
 `Y = X.dequeue();`
 
-**Answer** Y = 7
+**Answer:** Y = 7
 
 **(d)**
 `X.front();`
 
-**Answer** X = 9
+**Answer:** X = 9
 
 ### Question 5
 
