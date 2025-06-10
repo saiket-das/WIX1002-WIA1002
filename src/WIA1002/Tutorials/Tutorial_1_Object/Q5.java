@@ -1,4 +1,4 @@
-package WIA1002.Tutorials.Tutorial_1;
+package WIA1002.Tutorials.Tutorial_1_Object;
 
 public class Q5 {
     public static void main(String[] agrs) {

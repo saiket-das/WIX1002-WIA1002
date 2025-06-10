@@ -1,8 +1,8 @@
-package WIA1002.Tutorials.Tutorial_3;
+package WIA1002.Tutorials.Tutorial_3_ADT;
 
-import WIA1002.Tutorials.Tutorial_3.Classes.Candy;
-import WIA1002.Tutorials.Tutorial_3.Classes.Chip;
-import WIA1002.Tutorials.Tutorial_3.Classes.Items;
+import WIA1002.Tutorials.Tutorial_3_ADT.Classes.Candy;
+import WIA1002.Tutorials.Tutorial_3_ADT.Classes.Chip;
+import WIA1002.Tutorials.Tutorial_3_ADT.Classes.Items;
 
 public class Q1 {
     public static void main(String[] args) {

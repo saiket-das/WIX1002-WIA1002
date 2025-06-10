@@ -1,4 +1,4 @@
-package WIA1002.Tutorials.Tutorial_7;
+package WIA1002.Tutorials.Tutorial_7_Graph;
 
 public class Q1 {
     // Adjacency matrix

@@ -1,4 +1,4 @@
-package WIA1002.Tutorials.Tutorial_2;
+package WIA1002.Tutorials.Tutorial_2_Generic;
 
 public class Q1 {
     static class Container<T> {

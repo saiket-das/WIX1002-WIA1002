@@ -1,4 +1,4 @@
-package WIA1002.Tutorials.Tutorial_3.Classes;
+package WIA1002.Tutorials.Tutorial_3_ADT.Classes;
 
 public class Candy extends Item {
     public Candy(String productName, int productQuantity, double productPrice) {

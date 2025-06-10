@@ -1,4 +1,4 @@
-package WIA1002.Labs.Lab_2;
+package WIA1002.Labs.Lab_2_Generic;
 
 import java.util.Arrays;
 import java.util.Collections;
