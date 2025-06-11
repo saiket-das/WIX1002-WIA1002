@@ -1,4 +1,4 @@
-package WIA1002.Labs.Lab_7;
+package WIA1002.Labs.Lab_7_Graph;
 
 import java.util.*;
 
@@ -25,7 +25,7 @@ public class WeightedGraph<E> {
         weightedGraph.addEdge(3, 4, 7);
     }
 
-    // The addEdge method in WeightedGraph.java adds only directed edges.
+    // The addEdge method in WeightedGraph adds only directed edges.
     public boolean addEdge(E u, E v, int w) {
         for (List<Object> existingPair : adjList.get(u)) {
             if (existingPair.get(0).equals(v)) {
