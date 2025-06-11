@@ -15,6 +15,5 @@ public class Q3 {
             return 1;
 
         return x * recursion(x, y - 1);
-
     }
 }

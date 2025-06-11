@@ -1,4 +1,4 @@
-## Tutorial 8 - Priority Queue
+## Tutorial 8 - Recursion
 
 ### Question 1
 
@@ -13,7 +13,7 @@ public static int f(int n) {
 }
 ```
 
-**Answer** Stack Overflow Error
+**Answer:** Stack Overflow Error
 
 ---
 
@@ -30,7 +30,7 @@ public static int f(int n) {
 }
 ```
 
-**Answer** Stack Overflow Error
+**Answer:** Stack Overflow Error
 
 ---
 
@@ -39,7 +39,7 @@ public static int f(int n) {
 Write a recursive method to reverse a string.
 `String → gnirts`
 
-**Answer**
+**Answer:**
 
 ```
 public static String Q3(String str) {
@@ -56,7 +56,7 @@ Write a recursive method to calculate the following :
 `5 + 4 + 3 + 2 + 1`
 State the base case and recursive case. Trace your solution using number, N of 5.
 
-**Answer**
+**Answer:**
 
 ```
 public static int Q4(int n) {
@@ -73,7 +73,7 @@ Write a recursive method printDigit that prints an integer argument as its const
 with a blank space separates each digit with the next. For example, if the argument is 4567,
 this method will print 4 5 6 7 on the screen.
 
-**Answer**
+**Answer:**
 
 ```
 public static void Q5(int n) {
