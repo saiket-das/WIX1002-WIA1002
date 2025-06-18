@@ -6,17 +6,20 @@ This repository contains a collection of **labs**, **tutorials**, **viva questio
 - **Data Structures**
 
 ## 📘 WIX1002 - Fundamentals of Programming
+
 #### Topics Covered
+
 - Variables, Data Types, and Operators
-- Control Structures (if/else, loops, switch)  
-- Functions and Parameter Passing 
-- Arrays and Strings 
-- File Input/Output  
+- Control Structures (if/else, loops, switch)
+- Functions and Parameter Passing
+- Arrays and Strings
+- File Input/Output
 - Classes and Objects
 
-
 ## 📗 WIA1002 - Data Structures
+
 #### Topics Covered
+
 - Generics and Templates
 - Abstract Data Types (ADT)
 - Linked Lists (Singly, Doubly)

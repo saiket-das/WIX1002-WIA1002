@@ -1,4 +1,4 @@
-package WIA1002.Assignments.Assignment_1;
+package WIA1002.Assignments.Group.G_Assignment_1;
 
 /*
     ----------

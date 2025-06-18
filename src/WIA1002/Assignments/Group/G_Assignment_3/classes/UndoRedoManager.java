@@ -1,6 +1,5 @@
 /* Group 35 - Saiket Das (22117847) */
-
-package WIA1002.Assignments.Assignment_3.classes;
+package WIA1002.Assignments.Group.G_Assignment_3.classes;
 
 import java.util.Stack;
 

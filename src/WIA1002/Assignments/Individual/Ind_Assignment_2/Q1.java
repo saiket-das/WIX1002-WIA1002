@@ -1,4 +1,4 @@
-package WIA1002.Assignments.Assignment_2;
+package WIA1002.Assignments.Individual.Ind_Assignment_2;
 
 interface Employee {
     /**
